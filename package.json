@@ -1,0 +1,29 @@
+{
+  "name": "chatbot",
+  "version": "1.0.0",
+  "description": "chatbot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nstankovic/chatBot.git"
+  },
+  "author": "Nikola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nstankovic/chatBot/issues"
+  },
+  "homepage": "https://github.com/nstankovic/chatBot#readme",
+  "dependencies": {
+    "async": "^2.1.5",
+    "botbuilder": "^3.6.0",
+    "http": "0.0.0",
+    "querystring": "^0.2.0",
+    "request": "^2.79.0",
+    "restify": "^4.3.0",
+    "superagent": "^3.4.4"
+  }
+}
