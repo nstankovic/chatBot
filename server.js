@@ -7,7 +7,7 @@ var async = require('async');
 var faqService = require('./FAQService.js');
 
 var server = restify.createServer();
-server.listen(3978, function () {
+server.listen(process.env.PORT, function () {
    console.log('%s listening to %s', server.name, server.url); 
 });
   
