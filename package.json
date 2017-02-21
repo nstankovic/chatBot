@@ -21,6 +21,7 @@
     "async": "^2.1.5",
     "botbuilder": "^3.6.0",
     "http": "0.0.0",
+    "package": "^1.0.1",
     "querystring": "^0.2.0",
     "request": "^2.79.0",
     "restify": "^4.3.0",
