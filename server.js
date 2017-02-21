@@ -20,16 +20,12 @@ server.post('/api/messages', connector.listen());
 
  bot.dialog('/',[
         (session) => {
-            if(session.message.text.match(/hello/i)){
-                faqService.faqGet(session.message.text)
+            faqService.faqGet(session.message.text)
                     .then((res)=>{
                         session.send(res.answer);
                     }, (err) => {
 						console.log("error");
                  });
-            } else{
-                session.beginDialog('/hello');
-            }
     } , (session,result) => {
 
     } , (session) => {
